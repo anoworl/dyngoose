@@ -1,0 +1,1 @@
+{"version":3,"file":"primary-key.js","sourceRoot":"","sources":["../../src/decorator/primary-key.ts"],"names":[],"mappings":";;;AAEA,SAAgB,UAAU,CAAC,OAAe,EAAE,QAAiB;IAC3D,OAAO,CAAC,UAAuB,EAAE,WAAmB,EAAE,EAAE;QACtD,UAAU,CAAC,MAAM,CAAC,aAAa,CAAC,OAAO,EAAE,QAAQ,EAAE,WAAW,CAAC,CAAA;IACjE,CAAC,CAAA;AACH,CAAC;AAJD,gCAIC"}

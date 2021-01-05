@@ -1,0 +1,28 @@
+import { BatchGet } from './batch-get';
+import { BatchWrite } from './batch-write';
+import * as Config from './config';
+import * as Connection from './connections';
+import * as Decorator from './decorator';
+import { DynamoAttributeType } from './dynamo-attribute-types';
+import * as Errors from './errors';
+import * as Events from './events';
+import * as Metadata from './metadata';
+import * as Query from './query';
+import { ITable, Table } from './table';
+import { AttributeType } from './tables/attribute-type';
+import { Transaction } from './transaction';
+import { Filters } from './query/filters';
+import { QueryOutput } from './query/output';
+export declare const TableOperations: {
+    createTable: (table: ITable<any>) => Promise<import("aws-sdk/clients/dynamodb").TableDescription>;
+    deleteTable: (table: ITable<any>) => Promise<import("aws-sdk/clients/dynamodb").TableDescription | undefined>;
+};
+export { AttributeType, BatchGet, BatchWrite, Config, Connection, Decorator, DynamoAttributeType, Errors, Events, Filters, Metadata, Query, QueryOutput, Table, Transaction, };
+export { Decorator as $ };
+export { DocumentClient as $DocumentClient } from './decorator/document-client';
+export { GlobalSecondaryIndex as $GlobalSecondaryIndex, GlobalSecondaryIndexOptions } from './decorator/global-secondary-index';
+export { LocalSecondaryIndex as $LocalSecondaryIndex } from './decorator/local-secondary-index';
+export { PrimaryKey as $PrimaryKey } from './decorator/primary-key';
+export { Table as $Table } from './decorator/table';
+export { Attribute } from './decorator';
+export { DocumentClient } from './document-client';

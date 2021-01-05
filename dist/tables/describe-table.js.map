@@ -1,0 +1,1 @@
+{"version":3,"file":"describe-table.js","sourceRoot":"","sources":["../../src/tables/describe-table.ts"],"names":[],"mappings":";;;AAGO,KAAK,UAAU,aAAa,CAAC,MAAc;IAChD,MAAM,MAAM,GAAgC;QAC1C,SAAS,EAAE,MAAM,CAAC,IAAI;KACvB,CAAA;IAED,MAAM,MAAM,GAAG,MAAM,MAAM,CAAC,MAAM,CAAC,aAAa,CAAC,MAAM,CAAC,CAAC,OAAO,EAAE,CAAA;IAClE,OAAO,MAAM,CAAC,KAAkC,CAAA;AAClD,CAAC;AAPD,sCAOC"}
