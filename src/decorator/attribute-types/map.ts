@@ -69,8 +69,6 @@ export class MapAttributeType<Value> extends AttributeType<Value, MapAttributeMe
 
       if (attribute != null) {
         map[attribute.propertyName] = attribute.fromDynamo(value)
-      } else {
-        throw new ValidationError(`Unknown attribute seen on Map, ${attributeName}`)
       }
     }
 
